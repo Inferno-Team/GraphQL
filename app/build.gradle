@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
+apply plugin: 'maven-publish'
+group('com.github.Inferno-Team')
 
 android {
     compileSdk 30
